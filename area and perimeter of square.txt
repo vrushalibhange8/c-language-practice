@@ -1,0 +1,14 @@
+﻿#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,area,perimeter;
+printf("enter the value of side");
+scanf("%d",&a);
+area=a*a;
+printf("area of a square");
+perimeter=4*a;
+printf("perimeter of a square=%d",perimeter);
+
+getch();
+}
