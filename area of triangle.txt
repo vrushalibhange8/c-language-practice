@@ -1,0 +1,11 @@
+﻿#include<stdio.h>
+#include<conio.h>
+void main()
+{
+Float b,h,perimeter;
+printf("Enter the value of band h of triangle");
+scanf("%f%f",&b,&h);
+area=0.5*b*h;
+printf("area of a triangle %f",area);
+getch();
+}
