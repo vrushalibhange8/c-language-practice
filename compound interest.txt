@@ -1,0 +1,23 @@
+﻿#include<stdio.h>
+
+#include<conio.h>
+
+#include<math.h>
+
+void main()
+
+{
+  
+  int p,r,t,compoundintrest;
+
+  printf("enter the element of p,r,t");
+  
+  scanf("%d%d%d",&p,&r,&t);
+ 
+  compoundintrest=p*(pow((1+r/100),t));
+  
+  printf("compoundintrest %d",compoundintrest);
+    
+getch();
+
+}
