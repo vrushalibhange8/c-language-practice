@@ -1,0 +1,12 @@
+﻿#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int x=35,y=12;
+clrscr();
+textbackground(RED);
+clrscr();
+gotoxy(x,y);
+printf("JAI SHREE RAM");
+getch();
+}
